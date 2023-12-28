@@ -1,0 +1,107 @@
+*{margin:0; overflow-y:hidden;}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5vw;
+    background-color: rgb(250, 249, 247);
+    color: brown;
+}
+
+#ara{
+    color: green;
+}
+
+#emrata{
+    color: black;
+}
+
+.title{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50%;
+    font-size: large;
+    
+}
+/****EDIT THE VIDEO HERE****/
+#videosabackg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 3px rgba(red, green, blue, alpha);
+    text-shadow: 5px;
+    padding: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.banheading{
+    color: brown;
+    font-size: 10vh;
+    margin-top: 2vh;
+}
+.banheading span{
+    color: green;
+
+}
+
+.banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 10vw;
+    padding-left: 10vw ;
+    text-align: justify;
+    padding-top: 2vh;
+    margin-top: 2vh;
+    font-size: 18px;
+    margin-bottom: 2vh;
+    
+}
+
+footer{
+    margin-top: 52vh;
+    height: 10.7vh;
+    padding-left: 2vw;
+    background-color: white;
+    position: relative;
+}
+
+.sprite{
+    background-repeat: no-repeat;
+    display: inline-block;
+	width: 66px;
+	height: 66px;
+    background: url(sprite3.png);
+}
+
+#twitter{
+    background-position: -66px -72px;
+}
+
+#facebook{
+    background-position: -439px -146px;
+}
+
+#instagram{
+    background-position: -290px -221px;
+}
+
+#youtube{
+    background-position: -439px -221px;
+}
+
